@@ -4,7 +4,6 @@ import java.util.GregorianCalendar;
 
 public class Pratica31 {
         private static String meuNome = "Gustavo Pereira Morais";
-        private static Date inicio, fim;
         private static GregorianCalendar dataNascimento = new GregorianCalendar(1997, Calendar.JANUARY, 27);
         
         public static void main(String[] args){
@@ -25,6 +24,7 @@ public class Pratica31 {
            Date fim = new Date();
            
            long miliseconds = (fim.getTime() - inicio.getTime());
+           
            //Exibindo a quantidade de milisegundos passados desde o inicio da execução até o fim
            System.out.println(miliseconds);
     }
