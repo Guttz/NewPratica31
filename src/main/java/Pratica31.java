@@ -23,10 +23,8 @@ public class Pratica31 {
            //Inicializando a data de inicio da variável fim
            Date fim = new Date();
            
-           long miliseconds = (fim.getTime() - inicio.getTime());
-           
            //Exibindo a quantidade de milisegundos passados desde o inicio da execução até o fim
-           System.out.println(miliseconds);
+           System.out.println(fim.getTime() - inicio.getTime());
     }
         
 }
